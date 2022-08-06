@@ -3,6 +3,10 @@ const isOpenSidebar = ref(false);
 const toggleSidebar = () => {
   isOpenSidebar.value = !isOpenSidebar.value;
 };
+
+const closeSidebar = () => {
+  isOpenSidebar.value = false;
+};
 </script>
 <template>
   <header class="w-full lg:flex justify-between items-center md:px-8 lg:px-16 lg:py-4">
@@ -17,7 +21,7 @@ const toggleSidebar = () => {
           Tech<span class="text-red-primary">ian</span>
         </h1>
       </div>
-      <button class="lg:hidden">
+      <button class="lg:hidden" @click="toggleSidebar">
         <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M42.75 15.75H11.25" stroke="#060E3D" stroke-width="2" stroke-linecap="round" />
           <path d="M42.75 27H20.25" stroke="#060E3D" stroke-width="2" stroke-linecap="round" />
@@ -26,30 +30,31 @@ const toggleSidebar = () => {
       </button>
     </div>
     <nav
-      class="rounded-xl bg-black-primary text-white-primary absolute inset-4 h-3/4 lg:static lg:bg-transparent lg:text-black-primary lg:h-auto lg:w-3/5 hidden lg:block">
+      :class="isOpenSidebar ? 'active rounded-xl bg-black-primary text-white-primary absolute inset-4 h-3/4 lg:static lg:bg-transparent lg:text-black-primary lg:h-auto lg:w-3/5 backdrop' : 'rounded-xl bg-black-primary text-white-primary absolute inset-4 h-3/4 lg:static lg:bg-transparent lg:text-black-primary lg:h-auto lg:w-3/5 backdrop'"
+      @click="toggleSidebar">
       <ul
         class="flex justify-around flex-col items-center h-full py-4 relative lg:justify-between lg:flex-row lg:w-full">
-        <li class="nav-item">
+        <li class="nav-item" @click="closeSidebar">
           <a href="/" class="text-base font-medium tracking-wider">Home</a>
         </li>
         <li class="nav-item">
           <a href="#services" class="text-base font-medium tracking-wider">Services</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" @click="closeSidebar">
           <a href="#products" class="text-base font-medium tracking-wider">Products</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" @click="closeSidebar">
           <a href="#testimony" class="text-base font-medium tracking-wider">Testimony</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" @click="closeSidebar">
           <a href="#why-us" class="text-base font-medium tracking-wider">About Us</a>
         </li>
-        <li>
+        <li @click="closeSidebar">
           <a href="#contact-us"
             class="bg-transparent block ring-2 py-2.5 mb-2 px-8 font-medium text-base text-blue-primary hover:bg-slate-100 tracking-wide ring-blue-primary rounded-xl lg:font-semibold">Contact
             Us</a>
         </li>
-        <button class="absolute top-0 p-4 right-0 text-white lg:hidden">
+        <button class="absolute top-0 p-4 right-0 z-10 text-white lg:hidden" @click="closeSidebar">
           <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="22" cy="22" r="16.5" stroke="#F8FCFF" stroke-width="2" />
             <path d="M16.5002 27.4994L27.5002 16.4994" stroke="#F8FCFF" stroke-width="2" />
