@@ -6,7 +6,7 @@
           <h5 class="text-base text-slate-300 font-semibold mb-2">
             OUR SUPER PRODUCTS
           </h5>
-          <h2 class="text-3xl font-bold text-white-primary">
+          <h2 class="text-3xl lg:text-4xl font-bold text-white-primary">
             So, What Do You Waiting For? <br />
             Let’s Build Your Project
           </h2>

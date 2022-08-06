@@ -1,8 +1,9 @@
 <script setup>
 const isOpenSidebar = ref(false);
-const toggleSidebar = () => {
-  isOpenSidebar.value = !isOpenSidebar.value;
+const openSidebar = () => {
+  isOpenSidebar.value = true;
 };
+
 
 const closeSidebar = () => {
   isOpenSidebar.value = false;
@@ -21,7 +22,7 @@ const closeSidebar = () => {
           Tech<span class="text-red-primary">ian</span>
         </h1>
       </div>
-      <button class="lg:hidden" @click="toggleSidebar">
+      <button class="lg:hidden" @click="openSidebar">
         <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M42.75 15.75H11.25" stroke="#060E3D" stroke-width="2" stroke-linecap="round" />
           <path d="M42.75 27H20.25" stroke="#060E3D" stroke-width="2" stroke-linecap="round" />
@@ -31,14 +32,14 @@ const closeSidebar = () => {
     </div>
     <nav
       :class="isOpenSidebar ? 'active rounded-xl bg-black-primary text-white-primary absolute inset-4 h-3/4 lg:static lg:bg-transparent lg:text-black-primary lg:h-auto lg:w-3/5 backdrop' : 'rounded-xl bg-black-primary text-white-primary absolute inset-4 h-3/4 lg:static lg:bg-transparent lg:text-black-primary lg:h-auto lg:w-3/5 backdrop'"
-      @click="toggleSidebar">
+      @click="closeSidebar">
       <ul
         class="flex justify-around flex-col items-center h-full py-4 relative lg:justify-between lg:flex-row lg:w-full">
         <li class="nav-item" @click="closeSidebar">
-          <a href="/" class="text-base font-medium tracking-wider">Home</a>
+          <a href="#home" class="text-base font-medium tracking-wider">Home</a>
         </li>
         <li class="nav-item">
-          <a href="#services" class="text-base font-medium tracking-wider">Services</a>
+          <a href="#services" @click="closeSidebar" class="text-base font-medium tracking-wider">Services</a>
         </li>
         <li class="nav-item" @click="closeSidebar">
           <a href="#products" class="text-base font-medium tracking-wider">Products</a>
@@ -66,4 +67,3 @@ const closeSidebar = () => {
   </header>
 </template>
 
-<style lang=""></style>

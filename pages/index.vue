@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    <Navbar id="home" />
     <Hero />
     <Partner />
     <Benefit />
@@ -8,7 +8,6 @@
     <ProductList />
     <Contact />
     <Role />
-    <WhyUs />
     <Choose />
     <Footer />
   </div>

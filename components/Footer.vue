@@ -22,19 +22,19 @@
             </h2>
             <nav class="list-none list-footer space-y-5">
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/support">Web Development</nuxt-link>
+                <nuxt-link to="#services">Web Development</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/donate">Mobile Development</nuxt-link>
+                <nuxt-link to="#services">Mobile Development</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/donate">Dev Ops Development</nuxt-link>
+                <nuxt-link to="#services">Dev Ops Development</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/donate">Server Development</nuxt-link>
+                <nuxt-link to="#services">Server Development</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/donate">UX/UI Design</nuxt-link>
+                <nuxt-link to="#services">UX/UI Design</nuxt-link>
               </li>
             </nav>
           </div>
@@ -44,13 +44,13 @@
             </h2>
             <nav class="list-none list-footer space-y-5">
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/products">Admin dashboard</nuxt-link>
+                <nuxt-link to="#products">Admin dashboard</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/products">Absesnsi application</nuxt-link>
+                <nuxt-link to="#products">Absesnsi application</nuxt-link>
               </li>
               <li class="text-slate-400 tracking-wide">
-                <nuxt-link to="/products">Bussiness management</nuxt-link>
+                <nuxt-link to="#products">Bussiness management</nuxt-link>
               </li>
             </nav>
           </div>
@@ -60,7 +60,7 @@
             </h2>
             <nav class="list-none list-footer space-y-5">
               <li class="text-slate-400 tracking-wide">
-                <a href="#">Jl. Sudirman, Jakarta, Indonesia</a>
+                <span>Jl. Sudirman, Jakarta, Indonesia</span>
               </li>
               <li class="text-slate-400 tracking-wide">
                 <a href="mailto:suaraowonias@gmail.com>">techian@co.id</a>
