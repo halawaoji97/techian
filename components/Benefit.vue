@@ -1,6 +1,6 @@
 <template>
   <section class="w-full pt-0 lg:py-20" id="benefits">
-    <div class="container px-4 md:px-16 mx-auto">
+    <div class="container px-4 md:px-16 mx-auto" data-aos="fade-up" data-aos-duration="2000">
       <div class="text-center">
         <h5 class="text-base text-red-primary font-semibold mb-2">
           OUR SUPER BENEFITS

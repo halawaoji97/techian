@@ -1,7 +1,7 @@
 <template>
   <section
     class="h-full bg-black-primary pt-20 pb-12 lg:px-16 md:px-16 sm:px-8 px-4 transition-all duration-500 linear">
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="2000">
       <div class="lg:pb-24 pb-16 mx-auto">
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 lg:gap-0 gap-y-6">
           <div class="">
@@ -74,7 +74,7 @@
       </div>
       <div class="border-color mx-auto">
         <div class="">
-          <hr style="border-color: #fff" />
+          <hr style="border-color: #94A3B8" />
         </div>
         <div class="container mx-auto flex pt-12 flex-col lg:flex-row items-center space-y-5 lg:space-y-0">
           <div class="flex title-font font-medium items-center text-gray-900 mb-4 lg:mb-0 md:mb-0 space-x-5"
@@ -135,9 +135,9 @@
             </svg>
           </div>
           <nav class="mx-auto flex flex-wrap items-center text-base justify-center space-x-5">
-            <a href="" class="text-slate-400 tracking-wide">Terms of Service</a>
+            <a href="#" class="text-slate-400 tracking-wide">Terms of Service</a>
             <span class="text-slate-400 tracking-wide">|</span>
-            <a href="" class="text-slate-400 tracking-wide">Privacy Policy</a>
+            <a href="#" class="text-slate-400 tracking-wide">Privacy Policy</a>
           </nav>
           <nav class="flex lg:flex-row flex-col items-center text-base justify-center">
             <p class="text-slate-400 tracking-wide">

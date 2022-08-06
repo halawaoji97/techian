@@ -1,6 +1,6 @@
 <template>
   <section class="w-full pt-20 md:pb-32 CHOOSE" id="why-us">
-    <div class="container md:px-16 px-4 mx-auto">
+    <div class="container md:px-16 px-4 mx-auto" data-aos="fade-up" data-aos-duration="2000">
       <!-- <div class="grid grid-cols-1 grid-rows-3 md:grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-20 lg:grid-rows-1 w-full"> -->
       <div class="flex-col lg:flex-row flex items-center justify-between">
         <div class="text-left w-full lg:w-1/5">

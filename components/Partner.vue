@@ -1,6 +1,7 @@
 <template>
   <section class="w-full py-20">
-    <div class="container px-4 grid grid-cols-2 grid-rows-2 gap-8 lg:grid-cols-4 lg:grid-rows-1 md:px-16 mx-auto">
+    <div class="container px-4 grid grid-cols-2 grid-rows-2 gap-8 lg:grid-cols-4 lg:grid-rows-1 md:px-16 mx-auto"
+      data-aos="fade-up" data-aos-duration="2000">
       <div class="h-6 md:h-8">
         <img src="/assets/images/adobe.png" alt="" class="h-full mx-auto" />
       </div>

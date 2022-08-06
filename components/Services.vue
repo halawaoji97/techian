@@ -1,6 +1,6 @@
 <template>
   <section class="w-full py-20 benefits" id="services">
-    <div class="container lg:px-16 md:px-16 px-4 mx-auto">
+    <div class="container lg:px-16 md:px-16 px-4 mx-auto" data-aos="fade-up" data-aos-duration="2000">
       <!-- <div class="grid grid-cols-1 grid-rows-3 md:grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-20 lg:grid-rows-1 w-full"> -->
       <div class="flex-col lg:flex-row flex items-center justify-between md:items-start">
         <div class="text-left w-full md:w-3/4 lg:w-2/5">

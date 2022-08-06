@@ -1,7 +1,8 @@
 <template>
   <section class="w-full mt-20 bg-black-primary" id="contact-us">
     <div class="container py-24 px-4 md:px-16 mx-auto">
-      <div class="flex justify-around items-start flex-col md:flex-row md:items-center">
+      <div class="flex justify-around items-start flex-col md:flex-row md:items-center" data-aos="fade-up"
+        data-aos-duration="2000">
         <div class="text-left">
           <h5 class="text-base text-slate-300 font-semibold mb-2">
             OUR SUPER PRODUCTS

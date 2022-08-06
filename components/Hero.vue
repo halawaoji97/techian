@@ -1,7 +1,7 @@
 <template>
   <section class="w-full h-full hero">
-    <div
-      class="container px-4 lg:flex lg:flex-row-reverse lg: justify-between lg:items-center md:px-8 mx-auto lg:px-16">
+    <div class="container px-4 lg:flex lg:flex-row-reverse lg: justify-between lg:items-center md:px-8 mx-auto lg:px-16"
+      data-aos="fade-up" data-aos-duration="2000">
       <div class="-mt-10 md:mt-8">
         <TechianVue class="w-11/12 lg:w-full" />
       </div>
