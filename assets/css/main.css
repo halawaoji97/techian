@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-gradient-blue {
+  background-image: linear-gradient(to right, #060e3d, #124ad6);
+  transition: all 0.7s ease-in-out;
+}
+.bg-gradient-blue:hover {
+  background-image: linear-gradient(to right, #124ad6, #2073ce);
+}
+
+.bg-gradient-blue-secondary {
+  background-image: linear-gradient(to right, #124ad6, #2073ce);
+}
+
+.default-button-primary {
+  background-image: linear-gradient(to right, #060e3d, #124ad6);
+  position: relative;
+  z-index: 2;
+}
+.default-button-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transform: scaleY(0);
+  background-image: linear-gradient(to right, #2073ce, #f8fcff);
+  transition: all 0.5s ease-in-out;
+  border-radius: 12px;
+  transform-origin: top;
+}
+
+.default-button-primary:hover::before {
+  transform: scaleY(1);
+  z-index: -1;
+  opacity: 1;
+}
+
+.smooth-shadow {
+  box-shadow: 0px 10px 120px rgba(6, 14, 61, 0.25);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1);
+}
+.smooth-shadow:hover {
+  box-shadow: 0px 10px 70px rgba(6, 14, 61, 0.25);
+  transform: scale(1.1);
+}
+
+.smooth-shadow-secondary {
+  box-shadow: 0px 10px 120px rgba(6, 14, 61, 0.25);
+  transition: all 0.5s ease-in-out;
+}
+.smooth-shadow-secondary:hover {
+  box-shadow: 0px 10px 70px rgba(6, 14, 61, 0.25);
+}
+.card-overlay {
+  background-color: rgba(6, 14, 61, 0.5);
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+.smooth-shadow-secondary:hover .card-overlay {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.nav-item {
+  display: block;
+  padding: 0;
+  margin: 0 0 4px 0;
+  position: relative;
+}
+.nav-item a {
+  display: block;
+  padding-bottom: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-right: 12px;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: #124ad6;
+  transition: all 0.5s ease-in-out;
+  border-radius: 12px;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.nav-item:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+.nav-item a:hover {
+  color: #124ad6;
+  text-shadow: 0px 0px 1px #124ad6;
+}
+
+.roles {
+  background: linear-gradient(-45.43deg, #ffffff 16.23%, #bcd5f0 125.22%);
+}
+.CHOOSE {
+  background: linear-gradient(-45.43deg, #ffffff 16.23%, #bcd5f0 200.22%);
+}
+
+.steps {
+  position: relative;
+}
+
+.steps::after {
+  content: url("../images/line-circle.svg");
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  right: -10px;
+  top: 20%;
+  width: 100%;
+  transform: translate(100%) scale(1.2);
+  transition: all 0.5s ease-in-out;
+  border-radius: 12px;
+  transform-origin: top;
+  display: block;
+}
+
+.steps:last-child::after {
+  content: "";
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .steps:nth-child(2)::after,
+  .steps:nth-child(4)::after {
+    content: "";
+  }
+  .steps:nth-child(3)::after {
+    transform: translate(75%) scale(1.2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .steps::after {
+    content: url("../images/line-circle-down.svg");
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .steps:nth-child(3)::after {
+    content: "";
+  }
+  .steps:nth-child(2)::after,
+  .steps:nth-child(4)::after {
+    content: url("../images/line-circle-2.svg");
+  }
+  .steps:nth-child(3)::after {
+    transform: translate(100%) scale(1.2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .steps::after {
+    content: url("../images/line-circle-2.svg");
+  }
+}
