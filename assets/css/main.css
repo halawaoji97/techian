@@ -151,6 +151,9 @@ body {
   .steps:nth-child(3)::after {
     transform: translate(75%) scale(1.2);
   }
+  .steps::after{
+    right: 10%;
+  }
 }
 
 @media screen and (max-width: 767px) {
