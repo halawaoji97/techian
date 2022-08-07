@@ -81,8 +81,19 @@
   </section>
 </template>
 
-<script setup>
+<script>
 import SEO from "./elements/SEO";
 import Security from "./elements/Security";
 import RealTime from "./elements/RealTime";
+
+export default {
+  components: {
+    SEO,
+    Security,
+    RealTime,
+  },
+  setup() {
+    return {};
+  },
+};
 </script>
