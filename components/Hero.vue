@@ -20,14 +20,14 @@
         </p>
         <div
           class="flex justify-center items-center flex-col mt-12 md:mt-14 lg:justify-start lg:items-start md:flex-row w-full">
-          <button
+          <a href="#contact-us"
             class="default-button-primary ease-out block py-3 px-8 font-medium text-base tracking-wide text-white-primary rounded-xl md:font-semibold outline-0">
             Contact Us Now
-          </button>
-          <button
+          </a>
+          <a href="#benefits"
             class="bg-transparent block ring-2 py-3 px-8 font-medium text-base text-blue-primary hover:bg-slate-100 tracking-wide ring-blue-primary rounded-xl lg:font-semibold mt-8 md:mt-0 md:ml-12">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </div>
