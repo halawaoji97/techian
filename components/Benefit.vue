@@ -29,7 +29,7 @@
             Real-time solution
           </h6>
           <p
-            class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+            class="mt-1 text-base font-normal leading-relaxed text-grey-primary"
           >
             Your application will run
             <br class="hidden md:block" />
@@ -49,7 +49,7 @@
             SEO Optimization
           </h6>
           <p
-            class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+            class="mt-1 text-base font-normal leading-relaxed text-grey-primary"
           >
             We make sure your website
             <br class="hidden md:block" />
@@ -69,7 +69,7 @@
             Security System
           </h6>
           <p
-            class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+            class="mt-1 text-base font-normal leading-relaxed text-grey-primary"
           >
             High level of security & tested
             <br class="hidden md:block" />

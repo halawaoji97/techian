@@ -12,7 +12,7 @@
         <h2 class="text-3xl font-bold text-black-primary">
           WHY YOU CHOOSE USE?
         </h2>
-        <p class="mt-5 text-base font-medium leading-relaxed text-grey-primary">
+        <p class="normal mt-5 text-base leading-relaxed text-grey-primary">
           Giving satisfaction to our customers
           <br class="hidden md:block" />
           is one of our goals
@@ -71,7 +71,7 @@
                 Expert Developer
               </h6>
               <p
-                class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+                class="normal mt-1 text-base leading-relaxed text-grey-primary"
               >
                 Our developer team is very expert
                 <br class="hidden md:block" />
@@ -96,7 +96,7 @@
                 Creative & Innovative
               </h6>
               <p
-                class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+                class="normal mt-1 text-base leading-relaxed text-grey-primary"
               >
                 We will apply our creativity <br class="hidden md:block" />
                 to our customers project
@@ -121,7 +121,7 @@
                 100+ Project Finished
               </h6>
               <p
-                class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+                class="normal mt-1 text-base leading-relaxed text-grey-primary"
               >
                 We have successfully completed
                 <br class="hidden md:block" />
@@ -146,7 +146,7 @@
                 100+ Project Finished
               </h6>
               <p
-                class="mt-1 text-base font-medium leading-relaxed text-grey-primary"
+                class="normal mt-1 text-base leading-relaxed text-grey-primary"
               >
                 We have successfully completed
                 <br class="hidden md:block" />

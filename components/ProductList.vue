@@ -1,8 +1,12 @@
 <template>
-  <section class="w-full py-20 products" id="products">
-    <div class="container px-4 md:px-16 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+  <section class="products w-full py-20" id="products">
+    <div
+      class="container mx-auto px-4 md:px-16"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <div class="text-center">
-        <h5 class="text-base text-red-primary font-semibold mb-2">
+        <h5 class="mb-2 text-base font-semibold text-red-primary">
           OUR SUPER PRODUCTS
         </h5>
         <h2 class="text-3xl font-bold text-black-primary">
@@ -11,61 +15,107 @@
       </div>
 
       <div
-        class="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 gap-10 lg:grid-rows-1 mt-12">
-        <div class="rounded-xl smooth-shadow-secondary mx-auto max-w-xl w-full md:max-w-full">
-          <div class="w-full relative">
-            <img src="/assets/images/dashboard.jpg" alt="Dashboard Admin" class="h-full w-full shadow rounded-xl" />
-            <div class="flex justify-center items-center absolute inset-0 card-overlay rounded-xl">
-              <a href="#"
-                class="default-button-primary ease-out block py-3 px-8 font-medium text-base tracking-wide text-white-primary rounded-xl lg:font-semibold outline-0">
+        class="mt-12 grid grid-cols-1 grid-rows-3 gap-10 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1"
+      >
+        <div
+          class="smooth-shadow-secondary mx-auto w-full max-w-xl rounded-xl md:max-w-full"
+        >
+          <div class="relative w-full">
+            <img
+              src="/assets/images/dashboard.jpg"
+              alt="Dashboard Admin"
+              class="h-full w-full rounded-xl shadow"
+            />
+            <div
+              class="card-overlay absolute inset-0 flex items-center justify-center rounded-xl"
+            >
+              <a
+                href="#"
+                class="default-button-primary block rounded-xl py-3 px-8 text-base font-medium tracking-wide text-white-primary outline-0 ease-out lg:font-semibold"
+              >
                 Live Preview
               </a>
             </div>
           </div>
-          <a href="#" class="text-2xl mt-12 font-bold text-black-primary block leading-10 px-6">
+          <a
+            href="#"
+            class="mt-12 block px-6 text-2xl font-bold leading-10 text-black-primary"
+          >
             Dashboard Admin
           </a>
-          <p class="text-grey-primary text-base font-medium leading-relaxed mt-1 px-6 pb-6">
+          <p
+            class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
+          >
             We encourage people to use the latest techstack We encourage people
             to use the latest techstack people to use the latest techstack
             latest techstack people
           </p>
         </div>
 
-        <div class="rounded-xl smooth-shadow-secondary mx-auto max-w-xl w-full md:max-w-full">
-          <div class="w-full relative">
-            <img src="/assets/images/crm.jpg" alt="Dashboard Admin" class="h-full w-full shadow rounded-xl" />
-            <div class="flex justify-center items-center absolute inset-0 card-overlay rounded-xl">
-              <a href="#"
-                class="default-button-primary ease-out block py-3 px-8 font-medium text-base tracking-wide text-white-primary rounded-xl lg:font-semibold outline-0">
+        <div
+          class="smooth-shadow-secondary mx-auto w-full max-w-xl rounded-xl md:max-w-full"
+        >
+          <div class="relative w-full">
+            <img
+              src="/assets/images/crm.jpg"
+              alt="Dashboard Admin"
+              class="h-full w-full rounded-xl shadow"
+            />
+            <div
+              class="card-overlay absolute inset-0 flex items-center justify-center rounded-xl"
+            >
+              <a
+                href="#"
+                class="default-button-primary block rounded-xl py-3 px-8 text-base font-medium tracking-wide text-white-primary outline-0 ease-out lg:font-semibold"
+              >
                 Live Preview
               </a>
             </div>
           </div>
-          <a href="#" class="text-2xl mt-12 font-bold text-black-primary block leading-10 px-6">
+          <a
+            href="#"
+            class="mt-12 block px-6 text-2xl font-bold leading-10 text-black-primary"
+          >
             CRM
           </a>
-          <p class="text-grey-primary text-base font-medium leading-relaxed mt-1 px-6 pb-6">
+          <p
+            class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
+          >
             We encourage people to use the latest techstack We encourage people
             to use the latest techstack people to use the latest techstack
             latest techstack people
           </p>
         </div>
 
-        <div class="rounded-xl smooth-shadow-secondary mx-auto max-w-xl w-full md:max-w-full">
-          <div class="w-full relative">
-            <img src="/assets/images/absensi.jpg" alt="Dashboard Admin" class="h-full w-full shadow rounded-xl" />
-            <div class="flex justify-center items-center absolute inset-0 card-overlay rounded-xl">
-              <a href="#"
-                class="default-button-primary ease-out block py-3 px-8 font-medium text-base tracking-wide text-white-primary rounded-xl lg:font-semibold outline-0">
+        <div
+          class="smooth-shadow-secondary mx-auto w-full max-w-xl rounded-xl md:max-w-full"
+        >
+          <div class="relative w-full">
+            <img
+              src="/assets/images/absensi.jpg"
+              alt="Dashboard Admin"
+              class="h-full w-full rounded-xl shadow"
+            />
+            <div
+              class="card-overlay absolute inset-0 flex items-center justify-center rounded-xl"
+            >
+              <a
+                href="#"
+                class="default-button-primary block rounded-xl py-3 px-8 text-base font-medium tracking-wide text-white-primary outline-0 ease-out lg:font-semibold"
+              >
                 Live Preview
               </a>
             </div>
           </div>
-          <a href="#" class="text-2xl mt-12 font-bold text-black-primary block leading-10 px-6">
+          <a
+            href="#"
+            class="mt-12 block px-6 text-2xl font-bold leading-10 text-black-primary"
+          >
             Attendance Application
           </a>
-          <p class="text-grey-primary text-base font-medium leading-relaxed mt-1 px-6 pb-6">
+          <p
+            class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
+          >
             We encourage people to use the latest techstack We encourage people
             to use the latest techstack people to use the latest techstack
             latest techstack people
