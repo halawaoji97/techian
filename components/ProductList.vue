@@ -46,9 +46,7 @@
           <p
             class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
           >
-            We encourage people to use the latest techstack We encourage people
-            to use the latest techstack people to use the latest techstack
-            latest techstack people
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni itaque earum laboriosam distinctio omnis.
           </p>
         </div>
 
@@ -81,9 +79,7 @@
           <p
             class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
           >
-            We encourage people to use the latest techstack We encourage people
-            to use the latest techstack people to use the latest techstack
-            latest techstack people
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni itaque earum laboriosam distinctio omnis.
           </p>
         </div>
 
@@ -116,9 +112,7 @@
           <p
             class="mt-1 px-6 pb-6 text-base font-normal leading-relaxed text-grey-primary"
           >
-            We encourage people to use the latest techstack We encourage people
-            to use the latest techstack people to use the latest techstack
-            latest techstack people
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi magni itaque earum laboriosam distinctio omnis.
           </p>
         </div>
       </div>

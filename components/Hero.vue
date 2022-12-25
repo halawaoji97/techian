@@ -49,4 +49,3 @@
 <script setup>
 import TechianVue from "./elements/Techian";
 </script>
-<style lang=""></style>

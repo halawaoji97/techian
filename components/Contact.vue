@@ -46,7 +46,7 @@
             </svg>
 
             <span class="ml-2 tracking-wide text-slate-400"
-              >moderntech@.co.id</span
+              >techian@.co.id</span
             >
           </div>
 

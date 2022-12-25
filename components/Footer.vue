@@ -205,8 +205,8 @@
           <nav
             class="flex flex-col items-center justify-center text-base lg:flex-row"
           >
-            <p class="tracking-wide text-slate-400">
-              Copyright © 2022
+            <p class="tracking-wide text-slate-400 text-center sm:text-left">
+              Copyright © 2022 by <a class="text-blue-secondary" href="https://www.instagram.com/halawa_oji/" target="_blank">Halawa Oji</a>  
               <span class="mx-3 tracking-wide text-slate-400"> | </span> Techian
             </p>
           </nav>
