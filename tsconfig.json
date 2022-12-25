@@ -1,4 +1,36 @@
 {
-  // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+	// https://v3.nuxtjs.org/concepts/typescript
+	"extends": "./.nuxt/tsconfig.json",
+	"compilerOptions": {
+		"strict": false,
+		"skipLibCheck": true,
+		"target": "es2020",
+		"useDefineForClassFields": true,
+		"module": "es2020",
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"jsx": "preserve",
+		"allowJs": true,
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"useUnknownInCatchVariables": false,
+		"allowSyntheticDefaultImports": true,
+		"lib": ["es2020", "esnext", "dom"],
+		"baseUrl": "./",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/types"
+    ],
+		"typeRoots": ["node_modules/@types"]
+	},
+	"exclude": ["node_modules"]
 }
